@@ -81,9 +81,9 @@
   }
 
   &-cover {
-    border: 20px solid $accent;
+    border: 5px solid $accent;
     background: transparent;
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 20px;
 
     @media ($phone) {
@@ -101,6 +101,10 @@
       left: -20px;
       color: $accent;
     }
+  }
+  
+  strong {
+    color: #F15D71;
   }
 }
 
